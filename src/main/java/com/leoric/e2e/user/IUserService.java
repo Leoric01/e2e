@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface IUserService {
     List<User> getAllUsers();
     User registerUser(RegistrationRequest registrationRequest);
-    Optional<User> findUserByEmail(String email);
+    User findUserByEmail(String email);
     void deleteUserById(int id);
     void addUser(User user);
     void updateUser(User user);
