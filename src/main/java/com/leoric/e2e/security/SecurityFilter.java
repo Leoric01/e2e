@@ -12,7 +12,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
 @EnableWebSecurity
-public class EndToEndSecurityDemo {
+public class SecurityFilter {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
